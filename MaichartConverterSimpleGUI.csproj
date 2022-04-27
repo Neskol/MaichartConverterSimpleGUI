@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <Reference Include="MaichartConverter">
-      <HintPath>..\..\..\MaichartConverter\bin\Debug\net6.0\MaichartConverter.dll</HintPath>
+      <HintPath>..\MaichartConverter\bin\Debug\net6.0\MaichartConverter.dll</HintPath>
     </Reference>
   </ItemGroup>
 
