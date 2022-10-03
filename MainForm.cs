@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MaichartConverter;
+using MaiLib;
 using System.Windows.Forms;
 
 namespace MaichartConverterSimpleGUI
@@ -24,7 +24,7 @@ namespace MaichartConverterSimpleGUI
             {
                 Ma2Parser parser = new Ma2Parser();
                 Ma2Tokenizer tokenizer = new Ma2Tokenizer();
-                MaidataCompiler compiler = new MaidataCompiler();
+                SimaiCompiler compiler = new SimaiCompiler();
                 Chart converting = new Ma2(parser.ChartOfToken(tokenizer.TokensFromText(ma2TextBox.Text)));
                 simaiTextBox.Text = compiler.Compose(converting);
                 Console.WriteLine(compiler.Compose(converting));

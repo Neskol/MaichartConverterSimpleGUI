@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="MaichartConverter">
-      <HintPath>..\MaichartConverter\bin\Debug\net6.0\MaichartConverter.dll</HintPath>
+    <Reference Include="MaiLib">
+      <HintPath>MaiLib\bin\Debug\net6.0\MaiLib.dll</HintPath>
     </Reference>
   </ItemGroup>
 
