@@ -8,10 +8,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="MaiLib">
-      <HintPath>MaiLib\bin\Debug\net6.0\MaiLib.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
